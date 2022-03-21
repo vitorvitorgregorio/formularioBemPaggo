@@ -13,6 +13,7 @@ background-color: var(--primary-color);
     background-color: #fff;
 }
 .header {
+    align-items: center;
     padding: 18px 20px;
     border-radius: 10px 10px 0px 0px;
     display: flex;
@@ -30,6 +31,7 @@ background-color: var(--primary-color);
     padding: 8px 20px;
 }
 .group {
+    align-items: center;
     text-align: center;
     margin: 8px 0px;
     padding: 18px 0px;
@@ -61,9 +63,11 @@ background-color: var(--primary-color);
     border-radius: 4px;
 }
 .section {
+    align-items: center;
     padding: 16px 20px;
 }
 .footer {
+    align-items: center;
     padding: 24px 8px 24px 8px;
     display: flex;
     justify-content: space-around;
