@@ -23,12 +23,21 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Formulário para compra de adesivos utilizando HTML5, CSS3 & JAVASCRIPT
+  Formulário para compra de adesivos utilizando HTML5, CSS3 & JAVASCRIPT. Desenhei o projeto no FIGMA propondo melhorias em usabilidade do usuario
 </p>
 
 ## deploy da aplicação
 
-🌐 <a href="https://vitorvitorgregorio.github.io/formularioBemPaggo/" target="_blank"> Aqui nesse link você pode ver a aplicação online sem precisar baixar no seu computador <a/>
+🌐 <a href="https://vitorvitorgregorio.github.io/formularioBemPaggo/" target="_blank"> Aqui nesse link você pode ver a aplicação online sem precisar baixar no seu computador <a/> </br> <hr>
+  🌐 <a href="https://www.figma.com/file/RIYLS8oeiQwNNBrhb1O1z3/Formul%C3%A1rio-Bem-Paggo?node-id=0%3A1" target="_blank"> Neste link você consegue ver o projeto no FIGMA <a/>
+  <div align="center">
+    <h3> Formulário proposto pela empresa 🔽 </h3>
+    <img src="img/Frame 3.png" alt="">
+    <h2> Minha solução para o desafio 🔽 </h2>
+     </br>
+    <img src="img/Frame 1.png" alt="" margin-top="10px">
+    
+  </div>
 
 ## Funcionalidades
 
