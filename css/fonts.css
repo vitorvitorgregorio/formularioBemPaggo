@@ -1,0 +1,52 @@
+*{
+    font-family: 'Dm Sans', sans-serif;
+}
+.title h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: var(--title);
+}
+.title p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--gray);
+}
+.group h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--gray2);
+}
+.group p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--gray);
+}
+.section h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--title);
+}
+.section placeholder {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--gray);
+}
+.footer h3 {
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--primary-color);
+    background-color: #f9e8ff;
+    padding: 6px;
+    border-radius: 18px;
+}
+.footer b {
+    color: var(--title);
+}
