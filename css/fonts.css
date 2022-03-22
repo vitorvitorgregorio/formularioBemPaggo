@@ -50,3 +50,32 @@
 .footer b {
     color: var(--title);
 }
+.resume h3 {
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--primary-color);
+    background-color: #f9e8ff;
+    padding: 6px;
+    border-radius: 18px;
+}
+.resume b {
+    color: var(--title);
+}
+.footer2 a {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 8px 16px;
+    margin-top: 24px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.footer2 a:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: var(--primary-color);
+}

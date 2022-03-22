@@ -5,11 +5,9 @@ const types = {
     
 }
 
-
 function add(type) {
     types[type]++
     showValue(types[type]);
-
     document.getElementById(type).innerHTML = types[type];
 }
 
@@ -20,7 +18,6 @@ function sub(type) {
     else {
     types[type]--
     showValue(types[type]);
-
     document.getElementById(type).innerHTML = types[type];
     }
 }
@@ -29,5 +26,15 @@ function sub(type) {
 function showValue() {
     value = Object.values(types).reduce((prevValue,nextValue) => prevValue + nextValue)
     document.getElementById("result").innerHTML = value;
+    document.getElementById("result2").innerHTML = value;
+
 }
+// mostrar e ocultar a página de sucesso
+function show(){
+    const element = document.getElementById("form2")
+    element.classList.toggle('show')
+    const form = document.getElementById("form")
+    form.classList.toggle('hide')
+}
+
 

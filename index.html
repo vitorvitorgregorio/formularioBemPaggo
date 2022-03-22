@@ -10,7 +10,7 @@
     <title>Bem Paggo | Comprar Adesivos nunca foi tão fácil</title>
 </head>
 <body>
-    <form action="sucess.html" method="get" class="form">
+    <nav class="form" id="form">
         <div class="header">
             <p> etapa 1 de 2 </p>
             <img src="img/Icon.svg" alt="">
@@ -63,9 +63,26 @@
         </div>
         <div class="footer">
             <h3> <b> Total </b> R$ <span id="result">0</span>,00 </h3>
-            <button type="submit"> Confirmar </button>
+            <button onclick="show()"> Confirmar </button>
         </div>
-    </form>
+    </nav>
+    <nav id="form2" class="form2">
+        <div class="header">
+            <p> etapa 2 de 2 </p>
+            <img src="img/Icon.svg" alt="">
+        </div>
+        <div class="title">
+            <img src="img/sucess.svg" alt="">
+            <h1>Parábens, seu pedido foi realizado !</h1>
+            <p>Você receberá no e-mail vitor****@gmail.com instruções para o pagamento e informações sobre o status da entrega.</p>
+            <div class="resume">
+                <h3> <b>Valor total de sua compra : </b> R$ <span id="result2">0</span>,00 </h3>
+            </div>
+            <div class="footer2">
+                <a onclick="show()"> continuar comprando </a>
+            </div>
+        </div>
+    </nav>
     <script src="script.js"></script>
 </body>
 </html>
